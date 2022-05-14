@@ -1,0 +1,224 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="PDC03_MOD03.activity1" Title="Halalan Angelenean 2022">
+    <ContentPage.Content>
+        <StackLayout Margin="30"
+                     >
+            <Label Text="Halalan Angelenean 2022"
+                   FontAttributes="Bold"
+                   TextColor="#1d4695"
+                  HorizontalOptions="Center"
+                  FontSize="Large"/>
+
+            <Label Text="Presidential Result"
+                  HorizontalOptions="Center"
+                   TextColor="#d0232a"
+                  FontSize="Medium"/>
+
+            <!--- Candidate -->
+            <StackLayout Orientation="Horizontal"
+                         Padding="0,30,0,0">
+                
+                <Label Text="  1  "
+                       BackgroundColor="#edd61d"
+                       FontSize="Title"
+                       TextColor="White"
+                       FontAttributes="Bold"
+                       VerticalOptions="Center"
+                       HorizontalOptions="Start"/>
+
+                <StackLayout Padding="30,0,0,0"
+                             Orientation="Vertical"
+                             HorizontalOptions="StartAndExpand">
+                    
+                    <Label Text="Robredo, Leni"
+                       FontSize="Subtitle"
+                       VerticalOptions="Start"
+                       TextColor="#010204"/>
+                    
+                    <Label Text="1,953 votes"
+                       FontSize="Micro"
+                       VerticalOptions="Start"/>
+
+                </StackLayout>
+
+                <Label Text="32.75%"
+                       HorizontalOptions="End"
+                       VerticalOptions="Center"
+                       FontSize="Medium"
+                       TextColor="#1d4695"
+                       FontAttributes="Bold"/>
+
+            </StackLayout>
+            <!--- End of Candidate -->
+
+            <!--- Candidate -->
+            <StackLayout Orientation="Horizontal"
+                         Padding="0,20,0,0">
+
+                <Label Text="  2  "
+                        BackgroundColor="#edd61d"
+                       FontSize="Title"
+                       TextColor="White"
+                       FontAttributes="Bold"
+                       VerticalOptions="Center"
+                       HorizontalOptions="Start"/>
+
+                <StackLayout Padding="30,0,0,0"
+                             Orientation="Vertical"
+                             HorizontalOptions="StartAndExpand">
+
+                    <Label Text="Marcos, Bongbong"
+                       TextColor="#010204"
+                       FontSize="Subtitle"
+                       VerticalOptions="Start"/>
+
+                    <Label Text="201 votes"
+                       FontSize="Micro"
+                       VerticalOptions="Start"/>
+
+                </StackLayout>
+
+                <Label Text="3.83%"
+                       HorizontalOptions="End"
+                       VerticalOptions="Center"
+                       FontSize="Medium"
+                       TextColor="#1d4695"
+                       FontAttributes="Bold"/>
+
+            </StackLayout>
+            <!--- End of Candidate -->
+
+            <!--- Candidate -->
+            <StackLayout Orientation="Horizontal"
+                         Padding="0,20,0,0">
+
+                <Label Text="  3  "
+                       TextColor="White"
+                       BackgroundColor="#edd61d"
+                       FontSize="Title"
+                       FontAttributes="Bold"
+                       VerticalOptions="Center"
+                       HorizontalOptions="Start"/>
+
+                <StackLayout Padding="30,0,0,0"
+                             Orientation="Vertical"
+                             HorizontalOptions="StartAndExpand">
+
+                    <Label Text="Domagoso, Isko"
+                       FontSize="Subtitle"
+                       VerticalOptions="Start"
+                       TextColor="#010204"    />
+
+                    <Label Text="54 votes"
+                       FontSize="Micro"
+                       VerticalOptions="Start"/>
+
+                </StackLayout>
+
+                <Label Text="1.03%"
+                       HorizontalOptions="End"
+                       VerticalOptions="Center"
+                       FontSize="Medium"
+                       TextColor="#1d4695"
+                       FontAttributes="Bold"/>
+
+            </StackLayout>
+            <!--- End of Candidate -->
+
+            <!--- Candidate -->
+            <StackLayout Orientation="Horizontal"
+                         Padding="0,20,0,0">
+
+                <Label Text="  4  "
+                       BackgroundColor="#edd61d"
+                       TextColor="White"
+                       FontSize="Title"
+                       FontAttributes="Bold"
+                       VerticalOptions="Center"
+                       HorizontalOptions="Start"
+                       />
+
+                <StackLayout Padding="30,0,0,0"
+                             Orientation="Vertical"
+                             HorizontalOptions="StartAndExpand">
+
+                    <Label Text="Lacson, Ping"
+                       FontSize="Subtitle"
+                       VerticalOptions="Start"
+                       TextColor="#010204"    />
+
+                    <Label Text="29 votes"
+                       FontSize="Micro"
+                       VerticalOptions="Start"/>
+
+                </StackLayout>
+
+                <Label Text="0.55%"
+                       HorizontalOptions="End"
+                       VerticalOptions="Center"
+                       FontSize="Medium"
+                       TextColor="#1d4695"
+                       FontAttributes="Bold"/>
+
+            </StackLayout>
+            <!--- End of Candidate -->
+
+            <!--- Candidate -->
+            <StackLayout Orientation="Horizontal"
+                         Padding="0,20,0,0">
+
+                <Label Text="  5  "
+                       TextColor="White"
+                       BackgroundColor="#edd61d"
+                       FontSize="Title"
+                       FontAttributes="Bold"
+                       VerticalOptions="Center"
+                       HorizontalOptions="Start"/>
+
+                <StackLayout Padding="30,0,0,0"
+                             Orientation="Vertical"
+                             HorizontalOptions="StartAndExpand">
+
+                    <Label Text="De Guzman, Ka Leody"
+                       FontSize="Subtitle"
+                       VerticalOptions="Start"
+                       TextColor="#010204"    />
+
+                    <Label Text="17 votes"
+                       FontSize="Micro"
+                       VerticalOptions="Start"
+/>
+
+                </StackLayout>
+
+                <Label Text="0.32%"
+                       HorizontalOptions="End"
+                       VerticalOptions="Center"
+                       FontSize="Medium"
+                       TextColor="#1d4695"
+                       FontAttributes="Bold"/>
+
+            </StackLayout>
+            <!--- End of Candidate -->
+
+
+            <StackLayout 
+                HorizontalOptions="End"
+                Orientation="Horizontal"
+                VerticalOptions="EndAndExpand">
+
+                <Label Text="NO INPUT:"
+                       FontSize="Subtitle"
+                       FontAttributes="Bold"/>
+                <Label Text="2755 | 52.55%"
+                       FontSize="Subtitle"/>
+
+            </StackLayout>
+
+        </StackLayout>
+        
+        
+    </ContentPage.Content>
+</ContentPage>

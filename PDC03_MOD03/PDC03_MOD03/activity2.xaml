@@ -1,0 +1,124 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="PDC03_MOD03.activity2" Title="Top Five Presidential Candidates">
+    <ContentPage.Content>
+        <StackLayout Margin="30">
+            
+            <Label Text="Top Five Presidential Candidates"
+                   FontAttributes="Bold"
+                   TextColor="#1d4695"
+                   HorizontalOptions="CenterAndExpand"
+                   HorizontalTextAlignment="Center"
+                  FontSize="Large"/>
+
+            <Label Text="Representative Color"
+                  HorizontalOptions="Center"
+                  FontSize="Medium"/>
+
+
+            <Frame BorderColor="Black" Margin="0, 20,0,0">
+                <StackLayout Orientation="Horizontal">
+                    <BoxView Color="#e24f92"
+                             WidthRequest="45"/>
+
+                    <StackLayout Orientation="Vertical"
+                                 Padding="15,0,0,0">
+                        <Label Text="Leni Robredo"
+                               FontSize="Subtitle"
+                               FontAttributes="Bold"
+                               TextColor="#010204"
+                               />
+                        <Label Text="Pink"
+                               TextColor="#e24f92"
+                               FontSize="Micro"
+                               FontAttributes="Bold"/>
+                    </StackLayout>
+                </StackLayout>
+            </Frame>
+
+            <Frame BorderColor="Black">
+                <StackLayout Orientation="Horizontal">
+                    <BoxView Color="#ff1616"
+                             WidthRequest="45"/>
+
+                    <StackLayout Orientation="Vertical"
+                                 Padding="15,0,0,0">
+                        <Label Text="Bongbong Marcos"
+                               FontSize="Subtitle"
+                               FontAttributes="Bold"
+                               TextColor="#010204"
+                               />
+                        <Label Text="Red"
+                               TextColor="#ff1616"
+                               FontSize="Micro"
+                               FontAttributes="Bold"/>
+                    </StackLayout>
+                </StackLayout>
+            </Frame>
+
+            <Frame BorderColor="Black">
+                <StackLayout Orientation="Horizontal">
+                    <BoxView Color="#83db88"
+                             WidthRequest="45"/>
+
+                    <StackLayout Orientation="Vertical"
+                                 Padding="15,0,0,0">
+                        <Label Text="Ping Lacson"
+                               FontSize="Subtitle"
+                               FontAttributes="Bold"
+                               TextColor="#010204"
+                               />
+                        <Label Text="Red"
+                               TextColor="#83db88"
+                               FontAttributes="Bold"
+                               FontSize="Micro"/>
+                    </StackLayout>
+                </StackLayout>
+            </Frame>
+
+            <Frame BorderColor="Black">
+                <StackLayout Orientation="Horizontal">
+                    <BoxView Color="#103aa0"
+                             WidthRequest="45"/>
+
+                    <StackLayout Orientation="Vertical"
+                                 Padding="15,0,0,0">
+                        <Label Text="Manny Pacquiao"
+                               FontSize="Subtitle"
+                               FontAttributes="Bold"
+                               TextColor="#010204"
+                               />
+                        <Label Text="Blue"
+                               TextColor="#103aa0"
+                               FontAttributes="Bold"
+                               FontSize="Micro"/>
+                    </StackLayout>
+                </StackLayout>
+            </Frame>
+
+            <Frame BorderColor="Black">
+                <StackLayout Orientation="Horizontal">
+                    <BoxView Color="#79797a"
+                             WidthRequest="45"/>
+
+                    <StackLayout Orientation="Vertical"
+                                 Padding="15,0,0,0">
+                        <Label Text="Isko Moreno"
+                               FontSize="Subtitle"
+                               FontAttributes="Bold"
+                               TextColor="#010204"
+                               />
+                        <Label Text="Gray"
+                               TextColor="#79797a"
+                               FontAttributes="Bold"
+                               FontSize="Micro"/>
+                    </StackLayout>
+                </StackLayout>
+            </Frame>
+
+
+
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

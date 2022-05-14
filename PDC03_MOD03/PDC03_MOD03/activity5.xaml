@@ -1,0 +1,194 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="PDC03_MOD03.activity5" Title="Presidential Candidates Election Results 2022">
+    <ContentPage.Content>
+        <StackLayout>
+            <RelativeLayout >
+
+                <Image x:Name="Img1" Source="eleksyon22.jpg"
+                       HeightRequest="200"
+                       WidthRequest="{OnPlatform Android=400, iOS=400}"
+                        RelativeLayout.WidthConstraint="{ConstraintExpression Type=RelativeToParent, Property=Width, Factor=1}"
+                         RelativeLayout.HeightConstraint="{ConstraintExpression Type=RelativeToParent, Property=Width, Factor=.56}"/>
+
+                <Label x:Name="Label" Text="Presidential Candidates Result"
+                       FontSize="20"
+                       BackgroundColor="#1d4695"
+                       TextColor="White"
+                       FontAttributes="Bold"
+                       Padding="10"
+                         RelativeLayout.YConstraint="{ConstraintExpression Type=RelativeToView, ElementName=Img1, Property=Height, Factor=.89}"
+                         RelativeLayout.XConstraint="{ConstraintExpression Type=RelativeToView, ElementName=Img1, Property=Width, Factor=0.13}"/>
+
+                <StackLayout Margin="30"
+                         VerticalOptions="Start"
+                          RelativeLayout.YConstraint="{ConstraintExpression Type=RelativeToView, ElementName=Label, Property=Height, Factor=5.25}"
+                         RelativeLayout.XConstraint="{ConstraintExpression Type=RelativeToView, ElementName=Label, Property=Width, Factor=.08}"   >
+                    <!--- Candidate -->
+                    <StackLayout Orientation="Horizontal"
+                         >
+
+                        <Label Text="  1  "
+                       BackgroundColor="#edd61d"
+                       FontSize="30"
+                       TextColor="White"
+                       FontAttributes="Bold"
+                       VerticalOptions="Center"
+                       HorizontalOptions="Start"/>
+
+                        <StackLayout Padding="30,0,0,0"
+                             Orientation="Vertical"
+                             HorizontalOptions="StartAndExpand">
+
+                            <Label Text="Bongbong Marcos"
+                       FontSize="20"
+                       VerticalOptions="Start"
+                       TextColor="#010204"/>
+
+                            <Label Text="31,023,544 votes"
+                       FontSize="15"
+                       VerticalOptions="Start"/>
+
+                        </StackLayout>
+
+                    
+
+                    </StackLayout>
+                    <!--- End of Candidate -->
+
+                    <!--- Candidate -->
+                    <StackLayout Orientation="Horizontal"
+                         Padding="0,20,0,0">
+
+                        <Label Text="  2  "
+                        BackgroundColor="Gray"
+                       FontSize="Title"
+                       TextColor="White"
+                       FontAttributes="Bold"
+                       VerticalOptions="Center"
+                       HorizontalOptions="Start"/>
+
+                        <StackLayout Padding="30,0,0,0"
+                             Orientation="Vertical"
+                             HorizontalOptions="StartAndExpand">
+
+                            <Label Text="Leni Robredo"
+                       TextColor="#010204"
+                       FontSize="Subtitle"
+                       VerticalOptions="Start"/>
+
+                            <Label Text="14,818,258 votes"
+                       FontSize="Micro"
+                       VerticalOptions="Start"/>
+
+                        </StackLayout>
+
+                     
+
+                    </StackLayout>
+                    <!--- End of Candidate -->
+
+                    <!--- Candidate -->
+                    <StackLayout Orientation="Horizontal"
+                         Padding="0,20,0,0">
+
+                        <Label Text="  3  "
+                       TextColor="White"
+                       BackgroundColor="Gray"
+                       FontSize="Title"
+                       FontAttributes="Bold"
+                       VerticalOptions="Center"
+                       HorizontalOptions="Start"/>
+
+                        <StackLayout Padding="30,0,0,0"
+                             Orientation="Vertical"
+                             HorizontalOptions="StartAndExpand">
+
+                            <Label Text="Manny Pacquiao"
+                       FontSize="Subtitle"
+                       VerticalOptions="Start"
+                       TextColor="#010204"    />
+
+                            <Label Text="3,629,666 votes"
+                       FontSize="Micro"
+                       VerticalOptions="Start"/>
+
+                        </StackLayout>
+
+                      
+
+                    </StackLayout>
+                    <!--- End of Candidate -->
+
+                    <!--- Candidate -->
+                    <StackLayout Orientation="Horizontal"
+                         Padding="0,20,0,0">
+
+                        <Label Text="  4  "
+                       BackgroundColor="Gray"
+                       TextColor="White"
+                       FontSize="Title"
+                       FontAttributes="Bold"
+                       VerticalOptions="Center"
+                       HorizontalOptions="Start"
+                       />
+
+                        <StackLayout Padding="30,0,0,0"
+                             Orientation="Vertical"
+                             HorizontalOptions="StartAndExpand">
+
+                            <Label Text="Isko Moreno"
+                       FontSize="Subtitle"
+                       VerticalOptions="Start"
+                       TextColor="#010204"    />
+
+                            <Label Text="1,899,264 votes"
+                       FontSize="Micro"
+                       VerticalOptions="Start"/>
+
+                        </StackLayout>
+
+
+                    </StackLayout>
+                    <!--- End of Candidate -->
+
+                    <!--- Candidate -->
+                    <StackLayout Orientation="Horizontal"
+                         Padding="0,20,0,0">
+
+                        <Label Text="  5  "
+                       TextColor="White"
+                       BackgroundColor="Gray"
+                       FontSize="Title"
+                       FontAttributes="Bold"
+                       VerticalOptions="Center"
+                       HorizontalOptions="Start"/>
+
+                        <StackLayout Padding="30,0,0,0"
+                             Orientation="Vertical"
+                             HorizontalOptions="StartAndExpand">
+
+                            <Label Text="Ping Lacson"
+                       FontSize="Subtitle"
+                       VerticalOptions="Start"
+                       TextColor="#010204"    />
+
+                            <Label Text="882,084 votes"
+                       FontSize="Micro"
+                       VerticalOptions="Start"
+/>
+
+                        </StackLayout>
+
+
+                    </StackLayout>
+                    <!--- End of Candidate -->
+                </StackLayout>
+            </RelativeLayout>
+            
+        </StackLayout>
+
+       
+    </ContentPage.Content>
+</ContentPage>

@@ -1,0 +1,86 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="PDC03_MOD03.activity4" Title="Unofficial Voter Registration Form">
+    <ContentPage.Content>
+        <ScrollView>
+        <StackLayout Margin="30">
+            <Label Text="Voter Registration Form"
+                   FontAttributes="Bold"
+                   TextColor="#1d4695"
+                   HorizontalOptions="CenterAndExpand"
+                   HorizontalTextAlignment="Center"
+                  FontSize="Large"/>
+
+            <Label Text="Be a voter and fill up this Unofficial Voter Registration Form"
+                  HorizontalOptions="Center"
+                  FontSize="Medium"
+                   HorizontalTextAlignment="Center"/>
+
+
+            <Image Source="voter.jpg"
+                   Aspect="Fill"
+                   Margin="0, 20, 0, 10"
+                   HorizontalOptions="CenterAndExpand"
+                   VerticalOptions="Center"
+                   HeightRequest="{OnPlatform iOS=200, Android=250}"
+                       WidthRequest="{OnPlatform Android=250, iOS=200}"
+                   />
+            <AbsoluteLayout Padding="20,0,20,0">
+
+                    <Entry AbsoluteLayout.LayoutBounds="0, 40, 1, 40"
+                           AbsoluteLayout.LayoutFlags="XProportional,WidthProportional"
+                           Placeholder="Last Name"
+                           HorizontalOptions="FillAndExpand"/>
+
+                    <Entry AbsoluteLayout.LayoutBounds="0, 100, 1, 40"
+                           AbsoluteLayout.LayoutFlags="XProportional,WidthProportional"
+                           Placeholder="First Name"
+                           HorizontalOptions="FillAndExpand"/>
+
+                    <Entry AbsoluteLayout.LayoutBounds="0, 160, 1, 40"
+                               AbsoluteLayout.LayoutFlags="XProportional,WidthProportional"
+                               Placeholder="Middle Name"
+                               HorizontalOptions="FillAndExpand"/>
+
+                    <Entry AbsoluteLayout.LayoutBounds="0, 220, 1, 40"
+                               AbsoluteLayout.LayoutFlags="XProportional,WidthProportional"
+                               Placeholder="Province"
+                               HorizontalOptions="FillAndExpand"/>
+
+                    <Entry AbsoluteLayout.LayoutBounds="0, 280, 1, 40"
+                               AbsoluteLayout.LayoutFlags="XProportional,WidthProportional"
+                               Placeholder="Municipality"
+                               HorizontalOptions="FillAndExpand"/>
+
+                    <Entry AbsoluteLayout.LayoutBounds="0, 340, 1, 40"
+                               AbsoluteLayout.LayoutFlags="XProportional,WidthProportional"
+                               Placeholder="Barangay"
+                               HorizontalOptions="FillAndExpand"/>
+
+                    <Entry AbsoluteLayout.LayoutBounds="0, 400, 1, 40"
+                               AbsoluteLayout.LayoutFlags="XProportional,WidthProportional"
+                               Placeholder="House no/ Street"
+                               HorizontalOptions="FillAndExpand"/>
+
+
+                    <Button AbsoluteLayout.LayoutBounds="0, 460, 1, 50"
+                           AbsoluteLayout.LayoutFlags="XProportional,WidthProportional"
+                           Text="Check"
+                           Padding="15"
+                           CornerRadius="15"
+                           TextColor="White"
+                           BackgroundColor="#1d4695"
+                           FontSize="Small"
+                           FontAttributes="Bold"
+                           HorizontalOptions="FillAndExpand"
+                            Clicked="OnButtonClicked"
+                            />
+
+                </AbsoluteLayout>
+                
+           
+        </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

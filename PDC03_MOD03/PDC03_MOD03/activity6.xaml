@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="PDC03_MOD03.activity6" Title="Steps in Voting">
+    <ContentPage.Content>
+        <ScrollView>
+            <StackLayout Margin="30">
+                <Label Text="Steps in Voting"
+                   FontAttributes="Bold"
+                   TextColor="#1d4695"
+                   HorizontalOptions="Center"
+                   HorizontalTextAlignment="Center"
+                  FontSize="Large"/>
+
+                <Label Text="Philippine Elections 2022"
+                  HorizontalOptions="Center"
+                  FontSize="Medium"/>
+
+                <Image Source="votingsteps.jpg"
+                   Aspect="Fill"
+                   Margin="0, 20, 0, 20"
+                   HorizontalOptions="CenterAndExpand"
+                   VerticalOptions="Center"
+                   HeightRequest="{OnPlatform iOS=500, Android=550}"
+                       WidthRequest="{OnPlatform Android=450, iOS=400}"
+                   />
+
+               
+                
+                <StackLayout>
+                <Button x:Name="BtnConnect" Text="FIND MY PRECINT"
+                         Padding="15"
+                         CornerRadius="15"
+                         TextColor="White"
+                         BackgroundColor="#1d4695"
+                         FontSize="Small"
+                        FontAttributes="Bold"
+                         HorizontalOptions="Center"
+                         WidthRequest="200"/>
+
+                <ActivityIndicator IsRunning="{Binding IsBusy}" 
+                            Color="LightPink" 
+                            HorizontalOptions="Center"
+                            Scale=".5"
+                            />
+                </StackLayout>
+               
+
+
+            </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

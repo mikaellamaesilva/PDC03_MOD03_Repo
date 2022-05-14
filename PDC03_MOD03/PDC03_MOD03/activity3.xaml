@@ -1,0 +1,160 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="PDC03_MOD03.activity3" Title="Google Trends Searches">
+    <ContentPage.Content>
+        <StackLayout Margin="5,30,5,20">
+
+            <Label Text="Google Trends Searches"
+                   FontAttributes="Bold"
+                   TextColor="#1d4695"
+                   HorizontalOptions="CenterAndExpand"
+                   HorizontalTextAlignment="Center"
+                  FontSize="Large"/>
+
+            <Label Text="Presidential Candidates"
+                  HorizontalOptions="Center"
+                  FontSize="Medium"/>
+            
+            <Grid Margin="30">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="170"/>
+                    <RowDefinition Height="170"/>
+                    <RowDefinition Height="170"/>
+                    
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="*"/>
+                </Grid.ColumnDefinitions>
+
+
+
+
+                <BoxView Color  = "#e24f92"
+                       Grid.Row="0"
+                       Grid.ColumnSpan="2"/>
+                <StackLayout  HorizontalOptions="Center"
+                              VerticalOptions="CenterAndExpand"
+                              Grid.Row="0"
+                              Grid.ColumnSpan="2">
+                    <Label Text="Leni Robredo"        
+                       TextColor="White" 
+                       FontSize="Medium"
+                       FontAttributes="Bold"
+                       HorizontalOptions="Center"
+                       VerticalOptions="CenterAndExpand"
+                       />
+                    <Label Text="41%"
+                       TextColor="White"
+                       FontSize="Large"
+                       HorizontalOptions="Center"
+                       VerticalOptions="CenterAndExpand"
+                       /> 
+                </StackLayout>
+
+                <BoxView Color  = "#ff1616"
+                       Grid.Row="1"
+                       Grid.Column="0"/>
+                <StackLayout  HorizontalOptions="Center"
+                              VerticalOptions="CenterAndExpand"
+                              Grid.Row="1"
+                              Grid.Column="0">
+                    <Label Text="Bongbong Marcos"        
+                       TextColor="White" 
+                       FontSize="Small"
+                       FontAttributes="Bold"
+                       HorizontalOptions="Center"
+                       VerticalOptions="CenterAndExpand"
+                           HorizontalTextAlignment="Center"
+                       />
+                    <Label Text="25%"
+                       TextColor="White"
+                       FontSize="Large"
+                       HorizontalOptions="Center"
+                       VerticalOptions="CenterAndExpand"
+                       />
+                </StackLayout>
+
+                <BoxView Color  = "#7c7c7c"
+                       Grid.Row="1"
+                       Grid.Column="1"/>
+                <StackLayout  HorizontalOptions="Center"
+                              VerticalOptions="CenterAndExpand"
+                              Grid.Row="1"
+                              Grid.Column="1">
+                    <Label Text="Isko Moreno"        
+                       TextColor="White" 
+                       FontSize="Small"
+                       FontAttributes="Bold"
+                       HorizontalOptions="Center"
+                       VerticalOptions="CenterAndExpand"
+                       />
+                    <Label Text="12%"
+                       TextColor="White"
+                       FontSize="Large"
+                       HorizontalOptions="Center"
+                       VerticalOptions="CenterAndExpand"
+                       />
+                </StackLayout>
+
+                <BoxView Color  = "#103aa0"
+                       Grid.Row="2"
+                       Grid.Column="0"/>
+                <StackLayout  HorizontalOptions="Center"
+                              VerticalOptions="CenterAndExpand"
+                              Grid.Row="2"
+                              Grid.Column="0">
+                    <Label Text="Manny Pacquiao"        
+                       TextColor="White" 
+                       FontSize="Small"
+                       FontAttributes="Bold"
+                       HorizontalOptions="Center"
+                       VerticalOptions="CenterAndExpand"
+                       />
+                    <Label Text="12%"
+                       TextColor="White"
+                       FontSize="Large"
+                       HorizontalOptions="Center"
+                       VerticalOptions="CenterAndExpand"
+                       />
+                </StackLayout>
+
+                <BoxView Color  = "#37a52a"
+                       Grid.Row="2"
+                       Grid.Column="1"/>
+                <StackLayout  HorizontalOptions="Center"
+                              VerticalOptions="CenterAndExpand"
+                              Grid.Row="2"
+                              Grid.Column="1">
+                    <Label Text="Ping Lacson"        
+                       TextColor="White" 
+                       FontSize="Small"
+                       FontAttributes="Bold"
+                       HorizontalOptions="Center"
+                       VerticalOptions="CenterAndExpand"
+                       />
+                    <Label Text="5%"
+                       TextColor="White"
+                       FontSize="Large"
+                       HorizontalOptions="Center"
+                       VerticalOptions="CenterAndExpand"
+                       />
+                </StackLayout>
+
+
+
+
+
+
+
+
+
+
+
+
+
+            </Grid>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

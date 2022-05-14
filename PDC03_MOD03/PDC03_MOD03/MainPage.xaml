@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="PDC03_MOD03.MainPage"
+             BackgroundColor="White">
+
+    <StackLayout>
+        <Frame BackgroundColor="#2196F3" Padding="24" CornerRadius="0">
+            <Label Text="Module 3 - Layout and Images" HorizontalTextAlignment="Center" TextColor="White" FontSize="36"/>
+            
+        </Frame>
+
+        <StackLayout Padding="20">
+            <Button Text="Activity 1 - StackLayout" Clicked="Activity01"
+                    Padding="15"
+                    Margin="0,10,0,0"
+                    CornerRadius="10"
+                    FontAttributes="Bold"
+                    BackgroundColor="#ebf1fb"
+                    TextColor="#285dbb"
+                    />
+
+            <Button Text="Activity 2 - Frame and StackLayout" Clicked="Activity02" 
+                    Padding="15"
+                    Margin="0,10,0,0"
+                    CornerRadius="10"
+                    FontAttributes="Bold"
+                    BackgroundColor="#ebf1fb"
+                    TextColor="#285dbb"/>
+
+            <Button Text="Activity 3 - Grid" Clicked="Activity03"
+                    Padding="15"
+                    Margin="0,10,0,0"
+                    CornerRadius="10"
+                    FontAttributes="Bold"
+                    BackgroundColor="#ebf1fb"
+                    TextColor="#285dbb"/>
+
+        <Button Text="Activity 4 - Absolute Layout" Clicked="Activity04"
+                    Padding="15"
+                    Margin="0,10,0,0"
+                    CornerRadius="10"
+                    FontAttributes="Bold"
+                    BackgroundColor="#ebf1fb"
+                    TextColor="#285dbb"/>
+            
+            <Button Text="Activity 5 - Relative Layout" Clicked="Activity05"
+                      Padding="15"
+                    Margin="0,10,0,0"
+                    CornerRadius="10"
+                    FontAttributes="Bold"
+                    BackgroundColor="#ebf1fb"
+                    TextColor="#285dbb"/>
+            
+            <Button Text="Activity 6 - Manipulating Images" Clicked="Activity06"
+                     Padding="15"
+                    Margin="0,10,0,0"
+                    CornerRadius="10"
+                    FontAttributes="Bold"
+                    BackgroundColor="#ebf1fb"
+                    TextColor="#285dbb"/>
+        </StackLayout>
+        
+
+    </StackLayout>
+
+</ContentPage>
